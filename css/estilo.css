@@ -1,0 +1,185 @@
+body{
+    background: url('../imagens/fundo.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: #d22d00;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.telefone{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-right: 20px;
+    margin-top: 16px;
+    
+}
+
+nav{
+    width: 960px;
+    margin: 0 auto;
+    background: #d9a300;
+    box-sizing: border-box;
+    padding: 15px 35px;
+}
+
+.menu-navegacao li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-navegacao li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu-navegacao li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    background: white; 
+    padding: 40px 25px 30px 25px;
+}
+
+.titulo-principal{
+    font-size: 50px;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.pizzas-banner li{
+    display: inline-block;
+    text-align: center;
+}
+
+.pizzas-banner li figcaption{
+    margin-top: 10px;
+}
+
+.pizzas-banner{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.nossos-sabores , .historia{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 45%;
+    vertical-align: top;
+}
+
+.subtitulo-principal{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.lista-sabores{
+    column-count: 3;
+}
+
+.imagem-historia{
+    margin-right: 10px;
+}
+
+.historia a{
+    text-decoration: none;
+    color: #d93600;
+}
+
+footer{
+    box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-size: 12px;
+    color: white;
+    background: #333333;
+}
+
+label{
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+#nome , #email {
+    padding: 5px;
+    width: 300px;
+}
+
+#mensagem{
+    padding: 5px;
+    width: 500px;
+    display: block;
+    height: 100px;
+    margin-bottom: 14px;
+}
+
+button{
+    padding: 5px 10px;
+    background: #777777;
+    color: white;
+    border: 0;
+}
+
+.coluna-mapa{
+    box-sizing: border-box;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.coluna-formulario{
+    box-sizing: border-box;
+    width: 605px;
+    display: inline-block;
+}
+
+.destaque-mapa{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.coluna{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 49%;
+    vertical-align: top;
+}
+.destaque{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px
+}
+
+.lista-pizzas-historia{
+    column-count: 3;
+}
+
+.lista-pizzas-historia img{
+    width: 145px;
+    margin-bottom: 10px;
+}
